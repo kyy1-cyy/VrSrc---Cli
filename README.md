@@ -85,7 +85,7 @@ Everything is styled with colors, boxes, and keyboard navigation to make it easy
 
 ```bash
 git clone https://github.com/kyy1-cyy/VrSrc---Cli.git
-cd YOUR_REPO
+cd ~/VrSrc---Cli
 ```
 
 ### 2. Install dependencies
