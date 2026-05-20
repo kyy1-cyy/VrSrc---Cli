@@ -324,17 +324,9 @@ vrsrc --dest ~/Documents/vrp_games install-games
 
 ---
 
-## 🔐 Security note
-
-- `ServerInfo.json` contains credentials — keep it **local only**.
-- Do not push secrets to GitHub (see `.gitignore`).
-- Rotate passwords if a config file was ever committed publicly.
-
----
 
 ## 📜 License
-
-ISC
+....
 
 ---
 
