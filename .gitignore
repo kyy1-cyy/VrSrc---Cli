@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Secrets & local config (never commit credentials)
+ServerInfo.json
+config.json
+.env
+.env.*
+
+# Downloaded games & synced metadata cache
+downloads/
+data/
+meta.7z
+*.7z.partial
+*.partial
+
+# Logs
+*.log
+traffic.log
+
+# Bundled ADB (downloaded on first Quest install)
+platform-tools/
+android-sdk.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional local tooling
+.cursor/

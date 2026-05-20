@@ -1,0 +1,36 @@
+{
+  "name": "idel",
+  "version": "1.0.0",
+  "description": "VrSrc CLI for searching and downloading games via rclone",
+  "type": "module",
+  "main": "cli.js",
+  "bin": {
+    "vrsrc": "./cli.js"
+  },
+  "scripts": {
+    "start": "node ./cli.js",
+    "link": "npm link"
+  },
+  "keywords": [
+    "vrsrc",
+    "vr",
+    "rclone",
+    "cli"
+  ],
+  "author": "local",
+  "license": "ISC",
+  "dependencies": {
+    "7zip-bin": "^5.2.0",
+    "archiver": "^7.0.1",
+    "boxen": "^8.0.1",
+    "chalk": "^5.6.2",
+    "commander": "^11.1.0",
+    "enquirer": "^2.4.1",
+    "execa": "^9.6.1",
+    "figlet": "^1.11.0",
+    "normalize-path": "^3.0.0",
+    "fuse.js": "^7.3.0",
+    "node-7z": "^3.0.0",
+    "ora": "^8.2.0"
+  }
+}
